@@ -1,7 +1,8 @@
 ﻿#include <CoalaMOD.h>
 #pragma comment(lib, "CoalaMOD.lib")
 
-#include <math.h>
+#include <cmath>
+//#define abs(n) n > 0 ? n : -n
 
 #ifndef M_PI
 #define M_PI       3.14159265358979323846
